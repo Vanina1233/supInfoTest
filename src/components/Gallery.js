@@ -3,7 +3,6 @@ import React from "react";
 const gallery = ({ memes, topText, bottomText, handleChange }) => {
   return (
     <div className="col-md-3 p-3 position-fixed h-100  bg-white border sticky-md-bottom overflow-y-auto ">
-      {/* <span className="text-secondary">Vos designs les plus récents</span> */}
       <div>
         <p className="text-Primary fw-bold text-center fs-6 m-0 ">Media</p>
         <form className="meme-form w-100">
